@@ -1,0 +1,12 @@
+.text-success{
+    color:red;
+}
+.text-danger{
+    color:green;
+}
+.text-normal{
+    color:blue
+}
+.text-background{
+    background-color: yellow;
+}

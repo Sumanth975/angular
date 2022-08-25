@@ -1,0 +1,21 @@
+.card1{
+    background-color: red;
+    border:3px solid;
+    height:100vh;
+    
+}
+.card2{
+    background-color:blue;
+    border:3px solid;
+    position:relative;
+    bottom:0px;
+    
+}
+.card3{
+    background-color:green;
+    border:3px solid; 
+}
+.card4{
+    background-color: yellow;
+    border:3px solid;
+}

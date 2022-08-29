@@ -1,14 +1,13 @@
-<h1>{{ message | lowercase}}</h1>
-<h1>{{ message | uppercase}}</h1>
-<h1>{{message | slice:3:5}}</h1>
-<h1>{{ message | titlecase}}</h1>
-<h1>{{ message | lowercase}}</h1>
-<h1>{{ message | lowercase}}</h1>
-<h1>{{jsonObject | json}}</h1>
-
-<h1>{{date | date:'short'}}</h1>
-<h1>{{date | date:'mediumTime'}}</h1>
-<h1>{{date | date:'mediumDate'}}</h1>
-
-
-
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>age</th>
+    </tr>
+    <tr *ngFor="let student of students">
+        <td>{{student.id}}</td>
+        <td>{{student.name}}</td>
+        <td>{{student.age}}</td>
+    </tr>
+</table>
+<router-outlet></router-outlet>
